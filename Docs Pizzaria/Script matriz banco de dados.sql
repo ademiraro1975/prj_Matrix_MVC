@@ -93,3 +93,5 @@ create table pizzaria.fotoRefrigerante(
 	primary key (fotoRefrigeranteId),
 	FOREIGN KEY (refrigeranteId) REFERENCES pizzaria.refrigerante(refrigeranteId)
 );
+GO
+SELECT * FROM pizzaria.pizza
