@@ -1,0 +1,13 @@
+1 - Schema e tabela
+Scaffold-DbContext "Server=172.16.4.122,1433;Database=DadosSAADB;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -Force -OutputDir Entities -Context "EntitiesContext" -Schema "acesso" -t "dbo.tblunidade"
+2 - Schema
+Scaffold-DbContext "Server=172.16.4.122,1433;Database=DadosSAADB;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -Force -OutputDir Entities -Context "EntitiesContext" -Schema "dbo"
+3 - Tabela
+Scaffold-DbContext "Server=172.16.4.122,1433;Database=DadosSAADB;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -Force -OutputDir Entities -Context "EntitiesContext" -t "dbo.tblunidade"
+
+
+
+
+
+
+Scaffold-DbContext "Server=172.16.4.122,1433;Database=MATRIZDB;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -Force -OutputDir Entities -Context "PizzariaContext" -Schema "pizzaria"

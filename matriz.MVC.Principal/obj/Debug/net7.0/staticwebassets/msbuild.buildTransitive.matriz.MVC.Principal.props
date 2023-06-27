@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\matriz.MVC.Principal.props" />
+</Project>

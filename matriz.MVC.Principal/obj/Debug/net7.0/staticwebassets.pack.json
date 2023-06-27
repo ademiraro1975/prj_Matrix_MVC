@@ -1,0 +1,845 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\matriz.MVC.Principal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\matriz.MVC.Principal.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\css\\acesso-negado.min.css",
+      "PackagePath": "staticwebassets\\css\\acesso-negado.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\diploma.jpg",
+      "PackagePath": "staticwebassets\\images\\diploma.jpg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\images\\favicon_io\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\images\\favicon_io\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\images\\favicon_io\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\images\\favicon_io\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\images\\favicon_io\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon_io\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\TabelaPreco.jpg",
+      "PackagePath": "staticwebassets\\images\\geral\\TabelaPreco.jpg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\banner-topo-gremio-engenho.jpg",
+      "PackagePath": "staticwebassets\\images\\geral\\banner-topo-gremio-engenho.jpg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\fiebTech.svg",
+      "PackagePath": "staticwebassets\\images\\geral\\fiebTech.svg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\ingrediente.jpg",
+      "PackagePath": "staticwebassets\\images\\geral\\ingrediente.jpg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\ingrediente.png",
+      "PackagePath": "staticwebassets\\images\\geral\\ingrediente.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\logo.png",
+      "PackagePath": "staticwebassets\\images\\geral\\logo.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\pizza.png",
+      "PackagePath": "staticwebassets\\images\\geral\\pizza.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\pizzaII.jpg",
+      "PackagePath": "staticwebassets\\images\\geral\\pizzaII.jpg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\refrigerante.png",
+      "PackagePath": "staticwebassets\\images\\geral\\refrigerante.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tabelapreco.png",
+      "PackagePath": "staticwebassets\\images\\geral\\tabelapreco.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tamanho.jpg",
+      "PackagePath": "staticwebassets\\images\\geral\\tamanho.jpg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tamanho.png",
+      "PackagePath": "staticwebassets\\images\\geral\\tamanho.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tipo.jpeg",
+      "PackagePath": "staticwebassets\\images\\geral\\tipo.jpeg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tipo.png",
+      "PackagePath": "staticwebassets\\images\\geral\\tipo.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\user.svg",
+      "PackagePath": "staticwebassets\\images\\geral\\user.svg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_consulta.png",
+      "PackagePath": "staticwebassets\\images\\home\\cards\\card_consulta.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_diploma.png",
+      "PackagePath": "staticwebassets\\images\\home\\cards\\card_diploma.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_fotos.png",
+      "PackagePath": "staticwebassets\\images\\home\\cards\\card_fotos.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_matricula.png",
+      "PackagePath": "staticwebassets\\images\\home\\cards\\card_matricula.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\pizza\\pizza.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\pizza.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\pizza\\pizzaII.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza\\pizzaII.jpg"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\refrigerante\\refrigerante.png",
+      "PackagePath": "staticwebassets\\images\\refrigerante\\refrigerante.png"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\novoDoc.js",
+      "PackagePath": "staticwebassets\\js\\novoDoc.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\consulta.js",
+      "PackagePath": "staticwebassets\\js\\validation\\consulta.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\diploma.js",
+      "PackagePath": "staticwebassets\\js\\validation\\diploma.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\fotos.js",
+      "PackagePath": "staticwebassets\\js\\validation\\fotos.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\novoDoc.js",
+      "PackagePath": "staticwebassets\\js\\validation\\novoDoc.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\jasmine.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\tests\\jasmine.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_color-modes.test.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_color-modes.test.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_utilities.test.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_utilities.test.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\register.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\register.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\runner.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\runner.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\utilities\\_api.test.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\tests\\utilities\\_api.test.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.matriz.MVC.Principal.props",
+      "PackagePath": "build\\matriz.MVC.Principal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.matriz.MVC.Principal.props",
+      "PackagePath": "buildMultiTargeting\\matriz.MVC.Principal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.matriz.MVC.Principal.props",
+      "PackagePath": "buildTransitive\\matriz.MVC.Principal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.matriz.MVC.Principal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,231 @@
+﻿@using matriz.Core.Application.DTOs.Pizzaria;
+@model matriz.Core.Application.DTOs.Pizzaria.PizzaDTO;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    IEnumerable<matriz.Core.Application.DTOs.Pizzaria.FotoPizzaDTO> _listaFotoPizza = (IEnumerable<matriz.Core.Application.DTOs.Pizzaria.FotoPizzaDTO>)ViewBag.ListaFotoPizzas;
+    IEnumerable<matriz.Core.Application.DTOs.Pizzaria.IngredienteDTO> _listaIngredientePizza = (IEnumerable<matriz.Core.Application.DTOs.Pizzaria.IngredienteDTO>)ViewBag.ListaIngredientePizzas;
+    IEnumerable<matriz.Core.Application.DTOs.Pizzaria.PizzaDetalheDTO> _listaPizzaDetalhes = (IEnumerable<matriz.Core.Application.DTOs.Pizzaria.PizzaDetalheDTO>)ViewBag.ListaPizzaDetalhes;
+
+}
+
+<!-- INÍCIO DO CONTEÚDO -->
+<div class="cn-cont col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
+    <!-- INÍCIO DO CONTAINER -->
+    <div class="container">
+        <!-- INÍCIO DOS BREADCRUMBS -->
+        <div class="cn-breadcrumbs breadcrumb mb-3">
+            <a asp-area="" asp-controller="Pizza" asp-action="Index" class="breadcrumb-item">Sistema: Pizza</a>
+        </div>
+        <!-- FIM DO BREADCRUMBS -->
+
+        <h2 class="mb-3">Manutenção/Pizza/Excluir</h2>
+        <!-- INÍCIO DA DIV - TABELA -->
+        <div class="cn-div-table mb-3">
+            <!-- INÍCIO DA TABELA -->
+            <!-- FIM DA TABELA -->
+        </div>
+        <div class="row container">
+            <div class="col-12">
+                <br />
+                <br />
+                <div class="row container">
+                    <div class="form-group col-md-12 text-lg-start text-sm-start">
+                        <dl class="row">
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.PizzaId)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.PizzaId)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Nome)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Nome)
+                            </dd>
+                            <dt class="col-sm-2">
+                                @Html.DisplayNameFor(model => model.Descricao)
+                            </dt>
+                            <dd class="col-sm-10">
+                                @Html.DisplayFor(model => model.Descricao)
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <br />
+                <div class="row container">
+                    <div class="form-group col-md-12 text-lg-start text-sm-start">
+                        <hr />
+                        <h2 class="text-center">Detalhe</h2>
+                        <hr />
+                    </div>
+                </div>
+                <br />
+                <div class="row container">
+                    <div class="form-group col-md-12">
+                        <!-- INÍCIO DA TABELA -->
+                        <table class="table">
+                            <!-- INÍCIO DO THEAD -->
+                            <thead>
+                                <tr>
+                                    <th style="width:100px;">
+                                        Código
+                                    </th>
+                                    <th style="width:100px;">
+                                        Preco
+                                    </th>
+                                    <th style="width:380px;">
+                                        Tamanho
+                                    </th>
+                                    <th style="width:380px;">
+                                        Tipo
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- FIM DO THEAD -->
+                            <!-- INÍCIO DO TBODY -->
+                            <tbody>
+                                @foreach (var item in _listaPizzaDetalhes)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.PizzaDetalheId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.precoDP)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.tamanhoDP)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.tipoDP)
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <!-- FIM DA TABELA -->
+                    </div>
+                </div>
+                <div class="row container">
+                    <div class="form-group col-md-12 text-lg-start text-sm-start">
+                        <hr />
+                        <h2 class="text-center">Ingredientes</h2>
+                        <hr />
+                    </div>
+                </div>
+                <br />
+                <div class="row container">
+                    <div class="form-group col-md-12">
+                        <!-- INÍCIO DA TABELA -->
+                        <table class="table">
+                            <!-- INÍCIO DO THEAD -->
+                            <thead>
+                                <tr>
+
+                                    <th style="width:100px;">
+                                        Id
+                                    </th>
+                                    <th style="width:728px;">
+                                        Ingrediente
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- FIM DO THEAD -->
+                            <!-- INÍCIO DO TBODY -->
+                            <tbody>
+                                @foreach (var item in _listaIngredientePizza)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.IngredienteId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Nome)
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <!-- FIM DA TABELA -->
+                    </div>
+                </div>
+                <div class="row container">
+                    <div class="form-group col-md-12 text-lg-start text-sm-start">
+                        <hr />
+                        <h2 class="text-center">Fotos</h2>
+                        <hr />
+                    </div>
+                </div>
+                <br />
+                <div class="row container">
+                    <div class="form-group col-md-12">
+                        <!-- INÍCIO DA TABELA -->
+                        <table class="table">
+                            <!-- INÍCIO DO THEAD -->
+                            <thead>
+                                <tr>
+
+                                    <th style="width:100px;">
+                                        Id
+                                    </th>
+                                    <th style="width:380px;">
+                                        Pizza
+                                    </th>
+                                    <th style="width:380px;">
+                                        Foto
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- FIM DO THEAD -->
+                            <!-- INÍCIO DO TBODY -->
+                            <tbody>
+                                @foreach (var item in _listaFotoPizza)
+                                {
+                                    <tr>
+
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.FotoPizzaId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.PizzaId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Foto)
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <!-- FIM DA TABELA -->
+                    </div>
+                </div>
+                <br />
+                <br />
+            </div>
+        </div>
+        <!-- FIM DA DIV - TABELA -->
+        <hr />
+        <div class="row">
+            <div class="col-md-12 text-lg-start text-sm-start">
+                <h3>Deseja realmente excluir o registro?</h3>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="form-group col-md-6 text-lg-start text-sm-start">
+                <a asp-area="" asp-controller="Pizza" asp-action="Index"><button class="btn btn-outline-info border-secondary bi bi-pencil-square Heading">Não</button></a>
+            </div>
+            <div class="form-group col-md-6 text-lg-end text-sm-end">
+                <a asp-action="ConfirmaExclussao" asp-route-pizzaId=@Model.PizzaId><button class="btn btn-outline-danger border-secondary bi bi-pencil-square Heading">Sim</button></a>
+            </div>
+            
+        </div>
+        <!-- FIM DA DIV - TABELA -->
+    </div>
+    <!-- FIM DO CONTAINER -->
+</div>
+<!-- FIM DO CONTEÚDO -->

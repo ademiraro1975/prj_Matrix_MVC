@@ -1,0 +1,117 @@
+﻿@model matriz.Core.Application.DTOs.Pizzaria.RefrigeranteDTO
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    IEnumerable<matriz.Core.Application.DTOs.Pizzaria.FotoRefrigeranteDTO> _listaFotoRefrigerante = (IEnumerable<matriz.Core.Application.DTOs.Pizzaria.FotoRefrigeranteDTO>)ViewBag.ListaFotoRefrigerantes;
+
+}
+
+<!-- INÍCIO DO CONTEÚDO -->
+<div class="cn-cont col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
+    <!-- INÍCIO DO CONTAINER -->
+    <div class="container">
+        <!-- INÍCIO DOS BREADCRUMBS -->
+        <div class="cn-breadcrumbs breadcrumb mb-3">
+            <a asp-area="" asp-controller="Refrigerante" asp-action="Index" class="breadcrumb-item">Sistema: Refrigerante</a>
+        </div>
+        <!-- FIM DO BREADCRUMBS -->
+
+        <h2 class="mb-3">Manutenção/Pizza/Excluir</h2>
+
+        <!-- INÍCIO DA DIV - TABELA -->
+        <div class="cn-div-table mb-3">
+            <!-- INÍCIO DA TABELA -->
+            <!-- FIM DA TABELA -->
+        </div>
+
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.RefrigeranteId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.RefrigeranteId)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Descricao)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Descricao)
+            </dd>
+        </dl>
+        <br />
+        <div class="row container">
+            <div class="form-group col-md-12 text-lg-start text-sm-start">
+                <hr />
+                <h2 class="text-center">Imagens Refrigerante</h2>
+                <hr />
+            </div>
+        </div>
+        <div class="row container">
+            <div class="form-group col-md-12">
+                <!-- INÍCIO DA TABELA -->
+                <table class="table">
+                    <!-- INÍCIO DO THEAD -->
+                    <thead>
+                        <tr>
+                            <th style="width:100px;">
+                                Id
+                            </th>
+                            <th style="width:280px;">
+                                Refrigerante
+                            </th>
+                            <th style="width:280px;">
+                                Foto
+                            </th>
+                        </tr>
+                    </thead>
+                    <!-- FIM DO THEAD -->
+                    <!-- INÍCIO DO TBODY -->
+                    <tbody>
+                        @foreach (var item in _listaFotoRefrigerante)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.FotoRefrigeranteId)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.RefrigeranteId)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Foto)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <!-- FIM DA TABELA -->
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md-12 text-lg-start text-sm-start">
+                <h3>Deseja realmente excluir o registro?</h3>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="form-group col-md-6 text-lg-start text-sm-start">
+                <a asp-area="" asp-controller="Refrigerante" asp-action="Index"><button class="btn btn-outline-info border-secondary bi bi-pencil-square Heading">Não</button></a>
+            </div>
+            <div class="form-group col-md-6 text-lg-end text-sm-end">
+                <a asp-action="ConfirmaExclussao" asp-route-pizzaId=@Model.RefrigeranteId><button class="btn btn-outline-danger border-secondary bi bi-pencil-square Heading">Sim</button></a>
+            </div>
+            
+        </div>
+        <!-- FIM DA DIV - TABELA -->
+    </div>
+    <!-- FIM DO CONTAINER -->
+</div>
+<!-- FIM DO CONTEÚDO -->

@@ -1,0 +1,56 @@
+﻿@using System.Security.Principal
+@inject IHttpContextAccessor _httpContext
+
+<!-- INÍCIO DA DIV - PERFIL -->
+<div id="info-profile" class="cn-profile">
+    <!-- PERFIL: BOTÃO -->
+    <div class="cn-profile-avatar d-flex flex-row">
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            <div class="cn-profile-name">
+                @User.Identity?.Name
+            </div>
+            <div>
+                <div class="cn-profile-photo mb-2">
+                    <img src="@_httpContext.HttpContext?.Session.GetString("fotoUrl")" alt="Foto do usuário">
+                </div>
+            </div>
+
+            <i class="bi bi-chevron-down"></i>
+        }
+        else
+        {
+            <div class="cn-profile-name"></div>
+            <div class="cn-profile-photo mb-2">
+                <img src="/images/geral/user.svg" class="img-fluid">
+            </div>
+
+            <i class="bi bi-chevron-down"></i>
+        }
+    </div>
+
+    <!-- PERFIL: MENU -->
+    <div id="menu-profile" class="cn-profile-menu d-flex flex-column" style="visibility: hidden;">
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            <div class="cn-profile-name fw-semibold @*cn-profile-info*@">
+                @_httpContext.HttpContext?.Session.GetInt32("funcionarioId")
+            </div>
+            <div class="cn-profile-name fw-semibold">
+                @_httpContext.HttpContext?.Session.GetString("nomeFuncionario")
+            </div>
+            <div class="cn-profile-name fw-semibold">
+                @User.Identity?.Name
+            </div>
+
+            <a class="go-out" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut">Sair</a>
+        }
+        else
+        {
+            <a class="go-out" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Logar</a>
+            <div class="cn-profile-name"></div>
+            <div class="cn-profile-info"></div>
+        }
+    </div>
+</div>
+<!-- FIM DA DIV - PERFIL -->

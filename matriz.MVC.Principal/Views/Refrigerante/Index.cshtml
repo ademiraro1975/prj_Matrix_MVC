@@ -1,0 +1,116 @@
+﻿@model IEnumerable<matriz.Core.Application.DTOs.Pizzaria.RefrigeranteDTO>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- INÍCIO DO CONTEÚDO -->
+<div class="cn-cont col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10">
+
+    <!-- INÍCIO DO CONTAINER -->
+    <div class="container">
+
+        <!-- INÍCIO DOS BREADCRUMBS -->
+        <div class="cn-breadcrumbs breadcrumb mb-3">
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="breadcrumb-item">Sistema: Principal</a>
+        </div>
+        <!-- FIM DO BREADCRUMBS -->
+
+        <h2 class="mb-3 text-center">Manutenção - Refrigerante</h2>
+        <!-- INÍCIO DA DIV - TABELA -->
+        <div class="cn-div-table mb-3">
+            <!-- INÍCIO DA TABELA -->
+            <!-- FIM DA TABELA -->
+        </div>
+
+        <div class="row container">
+            <div class="col-3">
+                <!-- INÍCIO DA DIV - TABELA -->
+                <div id="nav-menu">
+                    <!-- INÍCIO DA LISTA -->
+                    <!-- FIM DA LISTA -->
+                </div>
+                <!-- FIM DA DIV - TABELA -->
+            </div>
+            <div class="col-3">
+                <!-- INÍCIO DA DIV - TABELA -->
+                <div id="nav-menu">
+                    <!-- INÍCIO DA LISTA -->
+                    <!-- FIM DA LISTA -->
+                </div>
+                <!-- FIM DA DIV - TABELA -->
+            </div>
+            <div class="col-2">
+                <!-- INÍCIO DA DIV - TABELA -->
+                <div id="nav-menu">
+                    <!-- INÍCIO DA LISTA -->
+                    <!-- FIM DA LISTA -->
+                </div>
+                <!-- FIM DA DIV - TABELA -->
+            </div>
+            <div class="col-4 text-end">
+                <!-- INÍCIO DA DIV - TABELA -->
+                <div id="nav-menu">
+                    <a asp-controller="Refrigerante" asp-action="Cadastrar"><button class="btn btn-outline-success border-secondary bi bi-file-earmark-plus-fill Heading"> Novo Refrigerante</button></a>
+                </div>
+                <!-- FIM DA DIV - TABELA -->
+            </div>
+        </div>
+        <hr />
+        <!-- INÍCIO DA TABELA -->
+        <table class="cn-table table rounded">
+            <!-- INÍCIO DO THEAD -->
+            <thead>
+                <tr>
+
+                    <th style="width:100px;">
+                        Código
+                    </th>
+                    <th style="width:32px;">
+
+                    </th>
+                    <th style="width:280px;">
+                        Refrigerante
+                    </th>
+                    <th style="width:280px;">
+                        Descrição
+                    </th>
+                    <th style="text-align:center">
+                        Operação
+                    </th>
+                </tr>
+            </thead>
+            <!-- FIM DO THEAD -->
+            <!-- INÍCIO DO TBODY -->
+            <tbody class="cn-tbody">
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RefrigeranteId)
+                        </td>
+                        <td>
+                            <img src="~/images/geral/refrigerante.png" alt="Refrigerante" width="28px" height="28px">
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descricao)
+                        </td>
+                        <td>
+                            <a asp-action="Alterar" asp-route-refrigeranteId="@item.RefrigeranteId"><button class="btn btn-outline-warning border-secondary bi bi-pencil-square Heading"> Editar</button></a>
+                            <a asp-action="Consultar" asp-route-refrigeranteId="@item.RefrigeranteId"><button class="btn btn-outline-info border-secondary bi bi-binoculars-fill Heading"> Detalhe</button></a>
+                                <a asp-action="Excluir" asp-route-refrigeranteId="@item.RefrigeranteId"><button class="btn btn-outline-danger border-secondary bi bi-trash Heading"> Excluir</button></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <!-- FIM DA TABELA -->
+    </div>
+    <!-- FIM DO CONTAINER -->
+</div>
+<!-- FIM DO CONTEÚDO -->
