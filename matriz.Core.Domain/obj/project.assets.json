@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos Apoio\\matriz\\matriz.Core.Domain\\matriz.Core.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Domain\\matriz.Core.Domain.csproj",
       "projectName": "matriz.Core.Domain",
-      "projectPath": "C:\\Projetos Apoio\\matriz\\matriz.Core.Domain\\matriz.Core.Domain.csproj",
+      "projectPath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Domain\\matriz.Core.Domain.csproj",
       "packagesPath": "C:\\Users\\ademir_000482\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos Apoio\\matriz\\matriz.Core.Domain\\obj\\",
+      "outputPath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.107\\RuntimeIdentifierGraph.json"
       }
     }
   }

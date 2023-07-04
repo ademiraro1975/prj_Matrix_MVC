@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - matriz.MVC.Gestor</title>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest"> 
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- INÍCIO DO CONTAINER - GERAL --> 
+    <div class="container-geral">
+        <!-- INÍCIO DO HEADER -->
+        <header class="cn-header">
+            <!-- INÍCIO DO CONTAINER -->
+            <div class="container h-10">
+                <!-- INÍCIO DO LOGO -->
+                <a class="cn-logo" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img class="img-fluid" src="~/images/geral/logo.png" alt="Logo">
+                    <span>: Gestor</span>
+                </a>
+                <!-- FIM DO LOGO -->
+                <partial name="_LoginPartial" />
+                <!-- MOBILE - BARS -->
+                <button id="cn-menu-bars" class="cn-bars">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+            <!-- FIM DO CONTAINER -->
+        </header>
+        <!-- FIM DO HEADER --> 
+        
+        <!-- INÍCIO DO MAIN -->
+        <main class="cn-main">
+            <!-- INÍCIO DO CONTAINER -->
+            <div class="container">
+                <!-- INÍCIO DA DIV -->
+                <div class="cn-flex">
+                    <!-- INÍCIO DO SIDEBAR -->
+                    <partial name="_Sidebar" />
+                    <!-- FIM DO ASIDE -->
+
+                    <!-- INÍCIO DO CONTEÚDO -->
+                    @RenderBody() 
+                    <!-- FIM DO CONTEÚDO -->
+                </div>
+                <!-- FIM DA DIV -->
+            </div>
+            <!-- FIM DO CONTAINER -->
+        </main> 
+        <!-- FIM DO MAIN -->
+
+        <!-- INÍCIO DO FOOTER -->
+        <footer class="cn-footer d-flex justify-content-between align-items-center">
+            <!-- INÍCIO CONTAINER -->
+            <div class="container h-10">
+                <a asp-area="" asp-controller="Home" asp-action="Index">
+                    <img class="img-fluid mb-2" src="~/images/geral/fiebTech.svg" alt="Logo - FiebTech"> 
+                </a>
+                <p><strong>UGTI</strong> - Unidade de Gestão de <br /> Tecnologia da Inovação</p>
+            </div>
+            <!-- FIM CONTAINER -->
+        </footer>
+        <!-- FIM DO FOOTER -->
+    </div>
+    <!-- FIM DO CONTAINER - GERAL -->
+
+    <!-- JQUERY -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script> 
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script src="~/js/script.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

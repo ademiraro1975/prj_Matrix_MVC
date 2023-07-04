@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matriz.Infra.IoC", "matriz.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matriz.MVC.Principal", "matriz.MVC.Principal\matriz.MVC.Principal.csproj", "{F2E5A807-713E-4943-A8BC-EFF5DD8C978E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matriz.MVC.Gestor", "matriz.MVC.Gestor\matriz.MVC.Gestor.csproj", "{E8CFBA5F-239D-4DB6-85EF-BACB37336CBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F2E5A807-713E-4943-A8BC-EFF5DD8C978E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E5A807-713E-4943-A8BC-EFF5DD8C978E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E5A807-713E-4943-A8BC-EFF5DD8C978E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CFBA5F-239D-4DB6-85EF-BACB37336CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CFBA5F-239D-4DB6-85EF-BACB37336CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CFBA5F-239D-4DB6-85EF-BACB37336CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CFBA5F-239D-4DB6-85EF-BACB37336CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{B9F3681A-A3C8-4A71-8FAA-4B0705551244} = {F1A157B1-FF9A-4CA1-8752-B984AC572B57}
 		{1E60F1DA-7605-4C84-9F13-22BA75521B2F} = {F1A157B1-FF9A-4CA1-8752-B984AC572B57}
 		{F2E5A807-713E-4943-A8BC-EFF5DD8C978E} = {649F8DA2-C35B-468F-AD9A-8D75C86B3FBD}
+		{E8CFBA5F-239D-4DB6-85EF-BACB37336CBA} = {649F8DA2-C35B-468F-AD9A-8D75C86B3FBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D12DAED-8B39-40D4-94E2-A5F429AF214D}

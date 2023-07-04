@@ -1,0 +1,70 @@
+﻿@using System.Security.Principal
+@inject IHttpContextAccessor _httpContext
+
+<!-- INÍCIO DO SIDEBAR -->
+<div class="cn-sidebar col-lg-2 col-xl-2 col-xxl-2">
+    <!-- INÍCIO DA NAVEGAÇÃO -->
+    <div id="nav-menu">
+        <!-- INÍCIO DA DIV - MOBILE -->
+        <div id="cn-menu-mobile">
+            <button type="button" id="cn-menu-close" class="btn-close" data-bs-dismiss="offcanvas"
+                    aria-label="Close" data-bs-target="#bdSidebar"></button>
+
+            @if (User.Identity?.IsAuthenticated == true)
+            { 
+                <a class="go-out" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignOut">Sair</a>
+            } else
+            {
+                <a class="go-out" asp-area="MicrosoftIdentity" asp-controller="Account" asp-action="SignIn">Logar</a>
+            }
+        </div>
+        <!-- FIM DA DIV - MOBILE -->
+        <!-- INÍCIO DA LISTA -->
+        <ul>
+            <!-- INÍCIO DO PERFIL -->
+            <li id="info-profile" class="cn-profile">
+                @if (User.Identity?.IsAuthenticated == true)
+                {
+                    <div class="cn-profile-photo mb-2">
+                        <img src="@_httpContext.HttpContext?.Session.GetString("fotoUrl")" alt="Foto do usuário">
+                    </div>
+                    
+                    <div class="cn-profile-name">
+                        @_httpContext.HttpContext?.Session.GetString("nomeFuncionario")
+                    </div>
+                    <div class="cn-profile-info">
+                        @User.Identity?.Name
+                    </div>
+                }
+                else {
+                    <div class="cn-profile-photo mb-2">
+                        <img src="/images/geral/user.svg" class="img-fluid mb-2">
+                    </div>
+                    <div class="cn-profile-name mb-1"></div>
+                    <div class="cn-profile-info"></div>
+                }
+            </li>
+            <!-- FIM DO PERFIL -->
+            <!-- INÍCIO DOS LINKS -->
+            <li class="cn-link">
+                <hr />
+                <a class="d-flex flex-row" asp-area="" asp-controller="" asp-action="">
+                    <!-- INÍCIO DA DIV - ÍCONE -->
+                    <div class="cn-link-icon">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <!-- FIM DA DIV ÍCONE -->
+                    <h6 class="d-flex flex-column">
+                        Gestor
+                        <span>Index</span>
+                    </h6>
+                </a>
+                <hr />
+            </li>
+            <!-- FIM DOS LINKS -->
+        </ul>
+        <!-- FIM DA LISTA -->
+    </div>
+    <!-- FIM DA NAVEGAÇÃO -->
+</div>
+<!-- FIM DO CARD1 -->

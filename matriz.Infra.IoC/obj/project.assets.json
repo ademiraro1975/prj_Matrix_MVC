@@ -3660,11 +3660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos Apoio\\matriz\\matriz.Infra.IoC\\matriz.Infra.IoC.csproj",
+      "projectUniqueName": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Infra.IoC\\matriz.Infra.IoC.csproj",
       "projectName": "matriz.Infra.IoC",
-      "projectPath": "C:\\Projetos Apoio\\matriz\\matriz.Infra.IoC\\matriz.Infra.IoC.csproj",
+      "projectPath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Infra.IoC\\matriz.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\ademir_000482\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos Apoio\\matriz\\matriz.Infra.IoC\\obj\\",
+      "outputPath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3686,14 +3686,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Projetos Apoio\\matriz\\matriz.Core.Application\\matriz.Core.Application.csproj": {
-              "projectPath": "C:\\Projetos Apoio\\matriz\\matriz.Core.Application\\matriz.Core.Application.csproj"
+            "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Application\\matriz.Core.Application.csproj": {
+              "projectPath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Application\\matriz.Core.Application.csproj"
             },
-            "C:\\Projetos Apoio\\matriz\\matriz.Core.Domain\\matriz.Core.Domain.csproj": {
-              "projectPath": "C:\\Projetos Apoio\\matriz\\matriz.Core.Domain\\matriz.Core.Domain.csproj"
+            "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Domain\\matriz.Core.Domain.csproj": {
+              "projectPath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Domain\\matriz.Core.Domain.csproj"
             },
-            "C:\\Projetos Apoio\\matriz\\matriz.Infra.Data\\matriz.Infra.Data.csproj": {
-              "projectPath": "C:\\Projetos Apoio\\matriz\\matriz.Infra.Data\\matriz.Infra.Data.csproj"
+            "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Infra.Data\\matriz.Infra.Data.csproj": {
+              "projectPath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Infra.Data\\matriz.Infra.Data.csproj"
             }
           }
         }
@@ -3737,7 +3737,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.107\\RuntimeIdentifierGraph.json"
       }
     }
   }

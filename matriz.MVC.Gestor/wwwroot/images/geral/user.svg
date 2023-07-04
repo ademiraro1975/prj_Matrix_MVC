@@ -1,0 +1,21 @@
+<svg id="Grupo_896" data-name="Grupo 896" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 63 66">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_420" data-name="Retângulo 420" width="63" height="63" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Elipse_17" data-name="Elipse 17" cx="31.5" cy="31.5" r="31.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_893" data-name="Grupo 893">
+    <g id="Grupo_892" data-name="Grupo 892" clip-path="url(#clip-path)">
+      <path id="Caminho_1257" data-name="Caminho 1257" d="M63,31.625A31.5,31.5,0,1,1,31.5.125,31.5,31.5,0,0,1,63,31.625" fill="#bfc0c1"/>
+    </g>
+  </g>
+  <g id="Grupo_895" data-name="Grupo 895">
+    <g id="Grupo_894" data-name="Grupo 894" clip-path="url(#clip-path-2)">
+      <path id="Caminho_1258" data-name="Caminho 1258" d="M44.5,22a13,13,0,1,1-13-13,13,13,0,0,1,13,13" fill="#4f4f4f"/>
+      <path id="Caminho_1259" data-name="Caminho 1259" d="M54.5,52.5c0,7.456-10.3,13.5-23,13.5s-23-6.044-23-13.5S18.8,39,31.5,39s23,6.044,23,13.5" fill="#4f4f4f"/>
+    </g>
+  </g>
+</svg>

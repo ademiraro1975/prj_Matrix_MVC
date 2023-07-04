@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "00mSBDDQUHiHkzCcxe7CEfYdP0E16tE2ZWCxPWPB8yNEOmGm7dLZoJSrIt8YHKLqatHXyI5QtnqY9hAZNKeuvA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.Core.Application\\matriz.Core.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ademir_000482\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\ademir_000482\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

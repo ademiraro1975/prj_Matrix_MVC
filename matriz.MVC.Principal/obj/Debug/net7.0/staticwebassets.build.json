@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ggh/e5zz0kmYph3/stS1NHklY4wfJfeHQD4lMtrt/I8=",
+  "Hash": "t5HOuX86FulmlRMUSNI6Z3od6lDz078zXubF5NAGYzA=",
   "Source": "matriz.MVC.Principal",
   "BasePath": "_content/matriz.MVC.Principal",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "matriz.MVC.Principal\\wwwroot",
       "Source": "matriz.MVC.Principal",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\matriz.MVC.Principal.styles.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\matriz.MVC.Principal.styles.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "matriz.MVC.Principal.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\matriz.MVC.Principal.styles.css"
+      "OriginalItemSpec": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\bundle\\matriz.MVC.Principal.styles.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\matriz.MVC.Principal.bundle.scp.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\matriz.MVC.Principal.bundle.scp.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "matriz.MVC.Principal.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\matriz.MVC.Principal.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\matriz.MVC.Principal.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\css\\acesso-negado.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\css\\acesso-negado.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "css/acesso-negado.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\acesso-negado.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\css\\site.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\css\\site.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\css\\site.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "css/site.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\favicon.ico",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\diploma.jpg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\diploma.jpg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/diploma.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\diploma.jpg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\android-chrome-192x192.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\android-chrome-192x192.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/favicon_io/android-chrome-192x192.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon_io\\android-chrome-192x192.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\android-chrome-512x512.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\android-chrome-512x512.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/favicon_io/android-chrome-512x512.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon_io\\android-chrome-512x512.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\apple-touch-icon.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\apple-touch-icon.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/favicon_io/apple-touch-icon.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon_io\\apple-touch-icon.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon.ico",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon.ico",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/favicon_io/favicon.ico",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon_io\\favicon.ico"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon-16x16.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon-16x16.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/favicon_io/favicon-16x16.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon_io\\favicon-16x16.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon-32x32.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\favicon_io\\favicon-32x32.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/favicon_io/favicon-32x32.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\favicon_io\\favicon-32x32.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\banner-topo-gremio-engenho.jpg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\banner-topo-gremio-engenho.jpg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/banner-topo-gremio-engenho.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\banner-topo-gremio-engenho.jpg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\fiebTech.svg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\fiebTech.svg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/fiebTech.svg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\fiebTech.svg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\ingrediente.jpg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\ingrediente.jpg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/ingrediente.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\ingrediente.jpg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\ingrediente.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\ingrediente.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/ingrediente.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\ingrediente.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\logo.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\logo.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/logo.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\logo.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\pizza.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\pizza.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/pizza.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\pizza.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\pizzaII.jpg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\pizzaII.jpg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/pizzaII.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\pizzaII.jpg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\refrigerante.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\refrigerante.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/refrigerante.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\refrigerante.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\TabelaPreco.jpg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\TabelaPreco.jpg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/TabelaPreco.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\TabelaPreco.jpg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tabelapreco.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tabelapreco.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/tabelapreco.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\tabelapreco.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tamanho.jpg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tamanho.jpg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/tamanho.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\tamanho.jpg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tamanho.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tamanho.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/tamanho.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\tamanho.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tipo.jpeg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tipo.jpeg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/tipo.jpeg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\tipo.jpeg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tipo.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\tipo.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/tipo.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\tipo.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\geral\\user.svg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\geral\\user.svg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/geral/user.svg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\geral\\user.svg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_consulta.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_consulta.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/home/cards/card_consulta.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\cards\\card_consulta.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_diploma.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_diploma.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/home/cards/card_diploma.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\cards\\card_diploma.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_fotos.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_fotos.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/home/cards/card_fotos.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\cards\\card_fotos.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_matricula.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\home\\cards\\card_matricula.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/home/cards/card_matricula.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home\\cards\\card_matricula.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\pizza\\pizza.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\pizza\\pizza.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/pizza/pizza.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza\\pizza.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\pizza\\pizzaII.jpg",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\pizza\\pizzaII.jpg",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/pizza/pizzaII.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza\\pizzaII.jpg"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\images\\refrigerante\\refrigerante.png",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\images\\refrigerante\\refrigerante.png",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "images/refrigerante/refrigerante.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\refrigerante\\refrigerante.png"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\novoDoc.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\js\\novoDoc.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "js/novoDoc.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\js\\novoDoc.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\js\\script.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\js\\site.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\consulta.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\js\\validation\\consulta.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "js/validation/consulta.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validation\\consulta.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\diploma.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\js\\validation\\diploma.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "js/validation/diploma.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validation\\diploma.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\fotos.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\js\\validation\\fotos.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "js/validation/fotos.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validation\\fotos.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\js\\validation\\novoDoc.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\js\\validation\\novoDoc.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "js/validation/novoDoc.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validation\\novoDoc.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_accordion.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_accordion.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_accordion.scss",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_accordion.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_alert.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_alert.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_alert.scss",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_alert.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_badge.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_badge.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_badge.scss",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_badge.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_breadcrumb.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_breadcrumb.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_breadcrumb.scss",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_breadcrumb.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_button-group.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_button-group.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_button-group.scss",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_button-group.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_buttons.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_buttons.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_buttons.scss",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_card.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_card.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_card.scss",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_card.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_carousel.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_carousel.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_carousel.scss",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_carousel.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_close.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_close.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_close.scss",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_close.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_containers.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_containers.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_containers.scss",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_containers.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_dropdown.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_dropdown.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_dropdown.scss",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_dropdown.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_forms.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_forms.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_forms.scss",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_forms.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_functions.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_functions.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_functions.scss",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_functions.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_grid.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_grid.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_grid.scss",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_grid.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_helpers.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_helpers.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_helpers.scss",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_helpers.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_images.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_images.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_images.scss",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_images.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_list-group.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_list-group.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_list-group.scss",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_maps.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_maps.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_maps.scss",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_maps.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_mixins.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_mixins.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_mixins.scss",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_modal.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_modal.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_modal.scss",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_modal.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_nav.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_nav.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_nav.scss",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_nav.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_navbar.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_navbar.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_navbar.scss",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_navbar.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_offcanvas.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_offcanvas.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_offcanvas.scss",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_offcanvas.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_pagination.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_pagination.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_pagination.scss",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_placeholders.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_placeholders.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_placeholders.scss",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_placeholders.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_popover.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_popover.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_popover.scss",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_popover.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_progress.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_progress.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_progress.scss",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_progress.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_reboot.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_reboot.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_reboot.scss",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_reboot.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_root.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_root.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_root.scss",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_root.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_spinners.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_spinners.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_spinners.scss",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_spinners.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_tables.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_tables.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_tables.scss",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_tables.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_toasts.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_toasts.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_toasts.scss",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_toasts.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_tooltip.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_tooltip.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_tooltip.scss",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_transitions.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_transitions.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_transitions.scss",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_transitions.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_type.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_type.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_type.scss",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_type.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_utilities.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_utilities.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_utilities.scss",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_utilities.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_variables.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_variables.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_variables.scss",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_variables.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_variables-dark.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\_variables-dark.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/_variables-dark.scss",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\_variables-dark.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap.css",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap.css.map",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.min.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.min.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap.min.css",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap.scss",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-grid.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/bootstrap-utilities.scss",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_floating-labels.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_floating-labels.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_floating-labels.scss",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-check.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-check.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_form-check.scss",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-check.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-control.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-control.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_form-control.scss",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-control.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-range.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-range.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_form-range.scss",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-range.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-select.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-select.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_form-select.scss",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-select.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-text.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-text.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_form-text.scss",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_form-text.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_input-group.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_input-group.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_input-group.scss",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_input-group.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_labels.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_labels.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_labels.scss",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_labels.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_validation.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_validation.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/forms/_validation.scss",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\forms\\_validation.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_clearfix.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_clearfix.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_clearfix.scss",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_color-bg.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_color-bg.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_color-bg.scss",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_color-bg.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_colored-links.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_colored-links.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_colored-links.scss",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_focus-ring.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_focus-ring.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_focus-ring.scss",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_focus-ring.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_icon-link.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_icon-link.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_icon-link.scss",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_icon-link.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_position.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_position.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_position.scss",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_position.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_ratio.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_ratio.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_ratio.scss",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stacks.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stacks.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_stacks.scss",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stacks.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stretched-link.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stretched-link.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_stretched-link.scss",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_text-truncation.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_text-truncation.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_text-truncation.scss",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_visually-hidden.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_visually-hidden.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_visually-hidden.scss",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_vr.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_vr.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/helpers/_vr.scss",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\helpers\\_vr.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_alert.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_alert.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_alert.scss",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_alert.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_backdrop.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_backdrop.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_backdrop.scss",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_backdrop.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_banner.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_banner.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_banner.scss",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_banner.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_border-radius.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_border-radius.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_box-shadow.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_box-shadow.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_breakpoints.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_breakpoints.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_buttons.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_buttons.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_caret.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_caret.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_caret.scss",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_caret.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_clearfix.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_clearfix.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-mode.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-mode.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_color-mode.scss",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-mode.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-scheme.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-scheme.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_color-scheme.scss",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_container.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_container.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_container.scss",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_container.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_deprecate.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_deprecate.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_deprecate.scss",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_forms.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_forms.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_forms.scss",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_forms.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_gradients.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_gradients.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_grid.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_grid.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_grid.scss",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_grid.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_image.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_image.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_image.scss",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_image.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_list-group.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_list-group.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_lists.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_lists.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_lists.scss",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_lists.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_pagination.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_pagination.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_reset-text.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_reset-text.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_resize.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_resize.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_resize.scss",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_resize.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_table-variants.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_table-variants.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_table-variants.scss",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_text-truncate.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_text-truncate.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_transition.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_transition.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_transition.scss",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_transition.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_utilities.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_utilities.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_utilities.scss",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_visually-hidden.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_visually-hidden.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/mixins/_visually-hidden.scss",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\jasmine.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\jasmine.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/tests/jasmine.js",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\jasmine.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_color-modes.test.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_color-modes.test.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/tests/mixins/_color-modes.test.scss",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_color-modes.test.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/tests/mixins/_media-query-color-mode-full.test.scss",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_media-query-color-mode-full.test.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_utilities.test.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_utilities.test.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/tests/mixins/_utilities.test.scss",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\mixins\\_utilities.test.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\register.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\register.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/tests/sass-true/register.js",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\register.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\runner.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\runner.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/tests/sass-true/runner.js",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\sass-true\\runner.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\utilities\\_api.test.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\utilities\\_api.test.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/tests/utilities/_api.test.scss",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\tests\\utilities\\_api.test.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\utilities\\_api.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\utilities\\_api.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/utilities/_api.scss",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\utilities\\_api.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\vendor\\_rfs.scss",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\dist\\scss\\vendor\\_rfs.scss",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/dist/scss/vendor/_rfs.scss",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "matriz.MVC.Principal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projetos Apoio\\prj_matriz\\matriz.MVC.Principal\\wwwroot\\",
+      "ContentRoot": "C:\\Projetos Apoio\\prj_Matrix_MVC\\matriz.MVC.Principal\\wwwroot\\",
       "BasePath": "_content/matriz.MVC.Principal",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
