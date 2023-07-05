@@ -11,14 +11,12 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly IEstadoService _estadoService;
     private readonly IFuncionarioService _funcionarioService;
-    private readonly IPizzaService _pizzaService;
     private readonly IFuncionarioPermissaoService _funcionarioPermissaoService;
 
-    public HomeController(IEstadoService estadoService, IFuncionarioService funcionarioService, IPizzaService pizzaService, IFuncionarioPermissaoService funcionarioPermissaoService, ILogger<HomeController> logger)
+    public HomeController(IEstadoService estadoService, IFuncionarioService funcionarioService,IFuncionarioPermissaoService funcionarioPermissaoService, ILogger<HomeController> logger)
     {
         _estadoService = estadoService;
         _funcionarioService = funcionarioService;
-        _pizzaService = pizzaService;
         _funcionarioPermissaoService = funcionarioPermissaoService;
         _logger = logger;
     }
