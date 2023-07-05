@@ -27,10 +27,10 @@ namespace matriz.Infra.IoC
                         )
                     );
 
-            services.AddDbContext<PizzariaContext>(
+            services.AddDbContext<AppDbContext>(
                     options => options.UseSqlServer(_conectionStringMatrizDB,
                             //configuration.GetConnectionString("DefaultConnection"),
-                            b => b.MigrationsAssembly(typeof(PizzariaContext).Assembly.FullName)
+                            b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)
                         )
                     );
 
@@ -38,23 +38,12 @@ namespace matriz.Infra.IoC
             services.AddScoped<IEstadoRepository, EstadoRepository>();
             services.AddScoped<IFuncionarioRepository, FuncionarioRepository>();
             services.AddScoped<IFuncionarioPermissaoRepository, FuncionarioPermissaoRepository>();
-            services.AddScoped<IPizzaRepository, PizzaRepository>();
-            services.AddScoped<IRefrigeranteRepository, RefrigeranteRepository>();
-            services.AddScoped<IIngredienteRepository, IngredienteRepository>();
-            services.AddScoped<ITipoRepository, TipoRepository>();
-            services.AddScoped<ITabelaPrecoRepository, TabelaPrecoRepository>();
-            services.AddScoped<ITamanhoRepository, TamanhoRepository>();
+
             //Services
             services.AddScoped<IEstadoService, EstadoService>();
             services.AddScoped<IFuncionarioPermissaoService, FuncionarioPermissaoService>();
             services.AddScoped<IHashService, HashSevice>();
-            services.AddScoped<IPizzaService, PizzaService>();
-            services.AddScoped<IRefrigeranteService, RefrigeranteService>();
             services.AddScoped<IFuncionarioService, FuncionarioService>();
-            services.AddScoped<IIngredienteService, IngredienteService>();
-            services.AddScoped<ITamanhoService, TamanhoService>();
-            services.AddScoped<ITipoService, TipoService>();
-            services.AddScoped<ITabelaPrecoService, TabelaPrecoService>();
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
