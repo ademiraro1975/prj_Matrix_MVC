@@ -20,6 +20,5 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
             FuncionarioCargoDepartamentoUnidades = new HashSet<FuncionarioCargoDepartamentoUnidade>();
         }
 
-
     }
 }

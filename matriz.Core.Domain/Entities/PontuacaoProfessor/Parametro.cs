@@ -3,14 +3,21 @@ using System.Collections.Generic;
 
 namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
-    public partial class Parametro
+    public sealed class Parametro
     {
-        public int CodigoParam { get; set; }
+        public int IdParametro { get; private set; }
 
-        public string? DescricaoParam { get; set; }
+        public string? Descricao{ get; set; }
 
-        public int? CodigoTipoParam { get; set; }
+        public int? IdTipoParametro { get; private set; }
 
-        public virtual ICollection<DetParam> TblDetParams { get; } = new List<DetParam>();
+        public TipoParametro TipoParametro { get; } = new TipoParametro();
+
+        public ICollection<DetalheParametro> DetalheParametro { get; } = new List<DetalheParametro>();
+        public Parametro()
+        {
+            DetalheParametro = new HashSet<DetalheParametro>();
+        }
+
     }
 }

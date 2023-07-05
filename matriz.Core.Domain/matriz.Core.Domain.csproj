@@ -12,4 +12,8 @@
     <None Remove="NewFolder\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Entities\PontuacaoProfessor\_DetalhePontuacao.cs~RF5c0ff95.TMP" />
+  </ItemGroup>
+
 </Project>

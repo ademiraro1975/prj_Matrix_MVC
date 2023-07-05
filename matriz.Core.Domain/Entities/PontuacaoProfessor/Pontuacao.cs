@@ -5,18 +5,28 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
     public partial class Pontuacao
     {
-        public int CodigoPont { get; set; }
+        public int IdPontuacao { get; private set; }
 
-        public int? CodigoProcessoAtribPont { get; set; }
+        public int IdProcessoAtribuicao { get; private set; }
 
-        public int? MatriculaProfPont { get; set; }
+        public int IdProfessor { get; private set; }
 
-        public decimal? PontuacaoEscolaPont { get; set; }
+        public decimal PontuacaoEscolaPont { get; private set; }
 
-        public decimal? PontuacaoFiebPont { get; set; }
+        public decimal PontuacaoFiebPont { get; private set; }
 
-        public decimal? DeducoesPont { get; set; }
+        public decimal DeducoesPont { get; private set; }
 
-        public decimal? TituloPont { get; set; }
+        public decimal TituloPont { get; private set; }
+
+        public ProcessoAtribuicao ProcessoAtribuicao { get; } = new ProcessoAtribuicao();
+        public Professor Professor { get; } = new Professor();
+
+        public ICollection<DetalhePontuacao> DetalhePontuacao { get; } = new List<DetalhePontuacao>();
+        public Pontuacao()
+        {
+            DetalhePontuacao = new HashSet<DetalhePontuacao>();
+        }
+
     }
 }

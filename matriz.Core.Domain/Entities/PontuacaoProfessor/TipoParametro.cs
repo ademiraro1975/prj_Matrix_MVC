@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
-    public partial class TipoParametro
+    public sealed class TipoParametro
     {
-        public int IdTipoParam { get; set; }
+        public int IdTipoParametro { get; private set; }
 
-        public string? DescricaoTipoAcesso { get; set; }
+        public string DescricaoTipoAcesso { get; private set; } = string.Empty;
 
-        public string? AvrevTipoAcesso { get; set; }
+        public string Abreviacao { get; private set; } = string.Empty;
     }
 }

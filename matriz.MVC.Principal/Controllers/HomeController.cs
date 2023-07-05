@@ -2,6 +2,7 @@
 using matriz.Core.Application.Interfaces;
 using matriz.MVC.Principal.Models;
 using System.Diagnostics;
+using matriz.Core.Application.Interfaces.PontuacaoProfessor;
 
 namespace matriz.MVC.Principal.Controllers;
 

@@ -4,22 +4,27 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
     public partial class DetalhePontuacao
     {
-        public int CodigoControlePont { get; set; }
+        public int IdDetalhePontuacao { get; private set; }
 
-        public int? CodigoPont { get; set; }
+        public int IdPontuacao { get; private set; }
 
-        public int? CodigoParamPont { get; set; }
+        public int IdDetalheParametro { get; private set; }
 
-        public string? TipoPont { get; set; }
+        public string TipoPontuacao { get; private set; } = string.Empty;
 
-        public decimal? QuantidadePont { get; set; }
+        public decimal QuantidadePont { get; private set; }
 
-        public int? QuantidadeDias { get; set; }
+        public int QuantidadeDias { get; private set; }
 
-        public int? QuantidadeDiasAnt { get; set; }
+        public int QuantidadeDiasAnt { get; private set; }
 
-        public decimal? QuantidadePontAnt { get; set; }
+        public decimal QuantidadePontAnt { get; private set; }
 
-        public DateTime? DataConclusao { get; set; }
+        public DateTime DataConclusao { get; private set; }
+
+        public Pontuacao Pontuacao { get; } = new Pontuacao();
+
+        public DetalheParametro DetalheParametro { get; } = new DetalheParametro();
+
     }
 }

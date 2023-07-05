@@ -3,30 +3,24 @@ using System.Collections.Generic;
 
 namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
-    public partial class MatriculaProfessor
+    public sealed class MatriculaProfessor
     {
-        public int MatriculaProfessor { get; set; }
+        public int idmatriculaprofessor { get; private set; }
+        public int idprofessor { get; private set; }
+        public int idcursoarea { get; private set; }
+        public string SituacaoFuncional { get; private set; } = string.Empty;
+        public string Cargo { get; private set; } = string.Empty;
+        public string Formacao { get; private set; } = string.Empty;
+        public DateTime? DataAdmissao { get; private set; }
+        public string ListaClassificacaoUnidade { get; private set; } = string.Empty;
+        public string ListaClassificacaoGeral { get; private set; } = string.Empty;
+        public DateTime DataAdmissaoFieb { get; private set; }
+        public string? CursoAreaFieb { get; private set; } = string.Empty;
 
-        public string? Cpf { get; set; }
+        public CursoArea cargo { get; } = new CursoArea();
+        public Professor Professor { get; } = new Professor();
 
-        public int? IdUnidade { get; set; }
 
-        public int? IdCursoArea { get; set; }
 
-        public string? SituacaoFuncional { get; set; }
-
-        public string? Cargo { get; set; }
-
-        public string? Formacao { get; set; }
-
-        public DateTime? DataAdmissao { get; set; }
-
-        public string? ListaClassificacaoUnid { get; set; }
-
-        public string? ListaClassificacaoGeral { get; set; }
-
-        public DateTime? DataAdmissaoFieb { get; set; }
-
-        public string? CursoAreaFieb { get; set; }
     }
 }

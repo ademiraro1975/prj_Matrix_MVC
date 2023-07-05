@@ -6,6 +6,10 @@ using matriz.Core.Application.Services;
 using matriz.Core.Domain.Interfaces;
 using matriz.Infra.Data.Context;
 using matriz.Infra.Data.Repositories;
+using matriz.Core.Domain.Interfaces.PontuacaoProfessor;
+using matriz.Core.Application.Interfaces.PontuacaoProfessor;
+using matriz.Core.Application.Services.PontuacaoProfessor;
+using matriz.Infra.Data.Repositories.PontuacaoProfessor;
 
 namespace matriz.Infra.IoC
 {
@@ -27,12 +31,6 @@ namespace matriz.Infra.IoC
                         )
                     );
 
-            services.AddDbContext<PizzariaContext>(
-                    options => options.UseSqlServer(_conectionStringMatrizDB,
-                            //configuration.GetConnectionString("DefaultConnection"),
-                            b => b.MigrationsAssembly(typeof(PizzariaContext).Assembly.FullName)
-                        )
-                    );
 
             //Repositories
             services.AddScoped<IEstadoRepository, EstadoRepository>();

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using matriz.Core.Application.Interfaces;
 using matriz.MVC.Gestor.Models;
 using System.Diagnostics;
 using matriz.Core.Application.Services;
+using matriz.Core.Application.Interfaces.PontuacaoProfessor;
 
 namespace matriz.MVC.Gestor.Controllers;
 

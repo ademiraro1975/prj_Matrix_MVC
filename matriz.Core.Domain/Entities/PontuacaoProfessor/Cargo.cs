@@ -10,7 +10,6 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public string? Nomenclatura { get;private set; } = string.Empty;
         public string Titulo { get; private set; } = string.Empty;
 
-
         public ICollection<CargoDepartamentoUnidade> CargoDepartamentoUnidades { get; } = new List<CargoDepartamentoUnidade>(); 
         public Cargo()
         {
