@@ -22,5 +22,17 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
             FuncionarioCargoDepartamentos = new HashSet<FuncionarioCargoDepartamentoUnidade>();
         }
 
+        public Funcionario(int id, string codigo, string cPF, string email, string fotoUrl, string nome, string rG, DateTime dataNascimento, int numDependentes)
+        {
+            Id = id;
+            Codigo = codigo;
+            CPF = cPF;
+            Email = email;
+            FotoUrl = fotoUrl;
+            Nome = nome;
+            RG = rG;
+            DataNascimento = dataNascimento;
+            NumDependentes = numDependentes;
+        }
     }
 }

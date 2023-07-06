@@ -22,18 +22,16 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public int EntidadeId { get; private set; }
         public int IdEndereco { get; private set; }
 
-        public Entidade Entidade { get; } = new Entidade();
-        public Endereco Endereco { get; } = new Endereco();
+        //public Entidade Entidade { get; } = new Entidade();
+        //public Endereco Endereco { get; } = new Endereco();
 
         public ICollection<CursoUnidade> CursoUnidades { get; } = new List<CursoUnidade>();
         public ICollection<DepartamentoUnidade> DepartamentoUnidades { get; } = new List<DepartamentoUnidade>();
-        public ICollection<Ingressante> Ingressantes { get; } = new List<Ingressante>();
         public ICollection<Parametro> Parametros { get; } = new List<Parametro>();
         public ICollection<UsuarioPermissao> UsuarioPermissaos { get; } = new List<UsuarioPermissao>();
 
         public Unidade()
         {
-            Ingressantes = new HashSet<Ingressante>();
             CursoUnidades = new HashSet<CursoUnidade>();
             Parametros = new HashSet<Parametro>();
             DepartamentoUnidades = new HashSet<DepartamentoUnidade>();

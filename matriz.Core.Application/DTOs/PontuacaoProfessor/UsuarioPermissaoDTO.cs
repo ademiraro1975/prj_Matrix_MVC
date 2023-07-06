@@ -14,8 +14,6 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         }
 
         public int Id { get;private set; }
-
-
         public int RotinaOperacaoId { get;private set; }
         public int UnidadeId { get; private set; }
         public int UsuarioId { get; private set; }

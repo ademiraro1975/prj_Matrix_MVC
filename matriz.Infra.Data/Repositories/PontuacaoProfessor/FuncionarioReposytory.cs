@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using matriz.Core.Domain.Entities;
 using matriz.Infra.Data.Context;
 using matriz.Core.Domain.Interfaces.PontuacaoProfessor;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
 namespace matriz.Infra.Data.Repositories.PontuacaoProfessor;
 
@@ -28,7 +28,9 @@ public class FuncionarioRepository : IFuncionarioRepository
                                  func.Email,
                                  func.FotoUrl,
                                  func.Nome,
-                                 func.RG
+                                 func.RG,
+                                 func.DataNascimento,
+                                 func.NumDependentes
                             );
 
 
