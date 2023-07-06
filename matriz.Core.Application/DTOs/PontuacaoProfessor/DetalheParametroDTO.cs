@@ -5,6 +5,19 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
     public sealed class DetalheParametroDTO
     {
+        public DetalheParametroDTO(int idDetalheParametro, int idParametro, int idProcessoAtribuicao, int idOperacaoParametro, int idUnidadeParametro, DateTime dataAlteracaoParam, decimal valorParam, decimal limiteParam, string unidadeParam)
+        {
+            IdDetalheParametro = idDetalheParametro;
+            IdParametro = idParametro;
+            IdProcessoAtribuicao = idProcessoAtribuicao;
+            IdOperacaoParametro = idOperacaoParametro;
+            IdUnidadeParametro = idUnidadeParametro;
+            DataAlteracaoParam = dataAlteracaoParam;
+            ValorParam = valorParam;
+            LimiteParam = limiteParam;
+            UnidadeParam = unidadeParam;
+        }
+
         public int IdDetalheParametro { get; set; }
         public int IdParametro { get; set; }
 
@@ -22,15 +35,6 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 
         public string UnidadeParam { get; set; }
 
-        public ParametroDTO Parametro { get; } = new ParametroDTO();
-        public ProcessoAtribuicaoDTO ProcessoAtribuicao { get; } = new ProcessoAtribuicaoDTO();
-        public OperacaoParametroDTO OperacaoParametro { get; } = new OperacaoParametroDTO();
-        public UnidadeParametroDTO UnidadeParametro { get; } = new UnidadeParametroDTO();
-
-        public ICollection<DetalhePontuacaoDTO> DetalhePontuacao { get; } = new List<DetalhePontuacaoDTO>();
-        public DetalheParametroDTO()
-        {
-            DetalhePontuacao = new HashSet<DetalhePontuacaoDTO>();
-        }
+        
     }
 }

@@ -5,6 +5,14 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
     public sealed class UsuarioPermissaoDTO
     {
+        public UsuarioPermissaoDTO(int id, int rotinaOperacaoId, int unidadeId, int usuarioId)
+        {
+            Id = id;
+            RotinaOperacaoId = rotinaOperacaoId;
+            UnidadeId = unidadeId;
+            UsuarioId = usuarioId;
+        }
+
         public int Id { get;private set; }
 
 
@@ -12,10 +20,6 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public int UnidadeId { get; private set; }
         public int UsuarioId { get; private set; }
 
-
-        public RotinaOperacaoDTO RotinaOperacao { get; } = new RotinaOperacaoDTO();
-        public UnidadeDTO Unidade { get; } = new UnidadeDTO();
-        public UsuarioDTO Usuario { get; } = new UsuarioDTO();
 
     }
 }

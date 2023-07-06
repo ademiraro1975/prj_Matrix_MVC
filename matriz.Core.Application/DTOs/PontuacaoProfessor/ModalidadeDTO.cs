@@ -5,6 +5,14 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
     public sealed class ModalidadeDTO
     {
+        public ModalidadeDTO(int id, string descricao, bool modular, string nome, string nomenclatura)
+        {
+            Id = id;
+            Descricao = descricao;
+            Modular = modular;
+            Nome = nome;
+            Nomenclatura = nomenclatura;
+        }
 
         public int Id { get; set; }
         public string Descricao { get; set; } = string.Empty;
@@ -12,15 +20,7 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public string Nome { get; set; } = string.Empty;
         public string Nomenclatura { get; set; } = string.Empty;
 
-        public ICollection<CursoDTO> Cursos { get; } = new List<CursoDTO>();  
-        //public ICollection<AnoLetivoParametro> AnoLetivoParametros { get; } = new List<AnoLetivoParametro>();
-        //public ICollection<DetalheModalidade> DetalheModalidades { get; } = new List<DetalheModalidade>();
-        public ModalidadeDTO()
-        {
-            Cursos = new HashSet<CursoDTO>();
-            //AnoLetivoParametros = new HashSet<AnoLetivoParametro>();
-            //DetalheModalidades = new HashSet<DetalheModalidade>();
-        }
+
         
     }
 }

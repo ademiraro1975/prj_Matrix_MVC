@@ -6,6 +6,24 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 {
     public sealed class UnidadeDTO
     {
+        public UnidadeDTO(int id, int cEPId, string cNPJ, int codigo, string decreto, string email, string emailSecretariaUnidadeEscolar, string nome, string nomeAbreviado, string nomeCompleto, string enderecoNumero, string telefone, int entidadeId, int idEndereco)
+        {
+            Id = id;
+            CEPId = cEPId;
+            CNPJ = cNPJ;
+            Codigo = codigo;
+            Decreto = decreto;
+            Email = email;
+            EmailSecretariaUnidadeEscolar = emailSecretariaUnidadeEscolar;
+            Nome = nome;
+            NomeAbreviado = nomeAbreviado;
+            NomeCompleto = nomeCompleto;
+            EnderecoNumero = enderecoNumero;
+            Telefone = telefone;
+            EntidadeId = entidadeId;
+            IdEndereco = idEndereco;
+        }
+
         public int Id { get; private set; }
         public int CEPId { get; private set; }
         public string CNPJ { get; private set; } = string.Empty;
@@ -22,22 +40,5 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public int EntidadeId { get; private set; }
         public int IdEndereco { get; private set; }
 
-        public Entidade Entidade { get; } = new Entidade();
-        public Endereco Endereco { get; } = new Endereco();
-
-        public ICollection<CursoUnidadeDTO> CursoUnidades { get; } = new List<CursoUnidadeDTO>();
-        public ICollection<DepartamentoUnidadeDTO> DepartamentoUnidades { get; } = new List<DepartamentoUnidadeDTO>();
-        public ICollection<Ingressante> Ingressantes { get; } = new List<Ingressante>();
-        public ICollection<ParametroDTO> Parametros { get; } = new List<ParametroDTO>();
-        public ICollection<UsuarioPermissaoDTO> UsuarioPermissaos { get; } = new List<UsuarioPermissaoDTO>();
-
-        public UnidadeDTO()
-        {
-            Ingressantes = new HashSet<Ingressante>();
-            CursoUnidades = new HashSet<CursoUnidadeDTO>();
-            Parametros = new HashSet<ParametroDTO>();
-            DepartamentoUnidades = new HashSet<DepartamentoUnidadeDTO>();
-            UsuarioPermissaos = new HashSet<UsuarioPermissaoDTO>();
-        }
     }
 }
