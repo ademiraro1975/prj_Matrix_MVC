@@ -1,20 +1,28 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class FundLegalConfigurarion
+    public class FundLegalConfiguration : IEntityTypeConfiguration<FundLegal>
     {
-
-        public int Id { get; private set; }
-        public string Fundlegal { get; private set; } = string.Empty;
-
-        public ICollection<CursoUnidadeFundLegalConfigurarion> CursoUnidadeFundLegals { get;} = new List<CursoUnidadeFundLegalConfigurarion>();
-        public FundLegalConfigurarion()
+        public void Configure(EntityTypeBuilder<FundLegal> builder)
         {
-            CursoUnidadeFundLegals = new HashSet<CursoUnidadeFundLegalConfigurarion>();
-        }   
-    
-    
+
+            builder.HasKey(e => e.Id)
+                .HasName("PK__tblfundl__3213E83FBF02791C");
+
+            builder.ToTable("tblfundlegal", "dbo");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("id");
+            builder.Property(e => e.Fundlegal)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("fundlegal");
+
+        }
     }
 }

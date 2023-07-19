@@ -1,21 +1,28 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class HabilitacaoConfigurarion
+    public class HabilitacaoConfiguration : IEntityTypeConfiguration<Habilitacao>
     {
-
-        public int Id { get; private set; }
-        public string Descricao { get; private set; } = string.Empty;
-
-        public ICollection<CursoHabilitacaoConfigurarion> CursoHabilitacaos { get; } = new List<CursoHabilitacaoConfigurarion>();
-        public ICollection<CursoConfigurarion> Cursos { get; } = new List<CursoConfigurarion>();
-        public HabilitacaoConfigurarion()
+        public void Configure(EntityTypeBuilder<Habilitacao> builder)
         {
-            CursoHabilitacaos = new HashSet<CursoHabilitacaoConfigurarion>();
-            Cursos = new HashSet<CursoConfigurarion>();
-        }
 
+            builder.HasKey(e => e.Id)
+                .HasName("PK__tblhabil__3213E83F5165187F");
+
+            builder.ToTable("tblhabilitacao", "dbo");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("id");
+            builder.Property(e => e.Descricao)
+                .HasMaxLength(70)
+                .IsUnicode(false)
+                .HasColumnName("descricao");
+
+        }
     }
 }

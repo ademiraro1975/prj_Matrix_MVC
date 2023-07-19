@@ -15,7 +15,7 @@ namespace matriz.Infra.IoC
 {
     public static class DependencyInjection
     {
-        private static readonly string _conectionString = "Server=172.16.4.122;Database=DadosSAADB;Trusted_Connection=True;TrustServerCertificate=True;";
+        //private static readonly string _conectionString = "Server=172.16.4.122;Database=DadosSAADB;Trusted_Connection=True;TrustServerCertificate=True;";
         private static readonly string _conectionStringMatrizDB = "Server=172.16.4.122;Database=MATRIZDB;Trusted_Connection=True;TrustServerCertificate=True;";
 
         //private static readonly string _conectionString = "Server=10.102.1.4;Database=DadosSAADB;User ID=fieb;Password=hb@C1#qB3;";
@@ -25,7 +25,7 @@ namespace matriz.Infra.IoC
             //var configuration = DatabaseConfiguration.Configuration;
 
             services.AddDbContext<AppDbContext>(
-                    options => options.UseSqlServer(_conectionString,
+                    options => options.UseSqlServer(_conectionStringMatrizDB,
                             //configuration.GetConnectionString("DefaultConnection"),
                             b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)
                         )

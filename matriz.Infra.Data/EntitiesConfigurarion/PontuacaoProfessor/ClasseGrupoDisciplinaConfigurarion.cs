@@ -5,8 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
     public class ClasseGrupoDisciplinaConfiguration : IEntityTypeConfiguration<ClasseGrupoDisciplina>
     {

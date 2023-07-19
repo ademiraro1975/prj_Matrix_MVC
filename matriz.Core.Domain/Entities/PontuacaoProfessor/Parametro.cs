@@ -14,6 +14,7 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public TipoParametro TipoParametro { get; } = new TipoParametro();
 
         public ICollection<DetalheParametro> DetalheParametro { get; } = new List<DetalheParametro>();
+
         public Parametro()
         {
             DetalheParametro = new HashSet<DetalheParametro>();

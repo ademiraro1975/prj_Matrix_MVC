@@ -1,20 +1,41 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class ProfessorConfigurarion
+    public class ProfessorConfiguration : IEntityTypeConfiguration<Professor>
     {
+        public void Configure(EntityTypeBuilder<Professor> builder)
+        {
 
-        public int Id { get; private set; }
-        public string Atribuicao { get;private set; } = string.Empty;
-        public string Observacao { get; private set; } = string.Empty;
-        public long RegistroDocente { get; private set; }
+            builder.HasKey(e => e.Id).HasName("PK__tblprofe__3213E83F02FC7413");
 
-        public int FuncionarioCargoDepartamentoUnidadeId { get; private set; }
+            builder.ToTable("tblprofessor", "dbo");
 
-        public FuncionarioCargoDepartamentoUnidadeConfigurarion FuncionarioCargoDepartamentoUnidade { get;} = new FuncionarioCargoDepartamentoUnidadeConfigurarion(); 
-        
+            builder.Property(e => e.Id)
+                .HasColumnName("id");
+            builder.Property(e => e.Atribuicao)
+                .HasMaxLength(26)
+                .IsUnicode(false)
+                .HasColumnName("atribuicao");
+            builder.Property(e => e.FuncionarioCargoDepartamentoUnidadeId)
+                .HasColumnName("idfuncionariocargodepartamentounidade");
+            builder.Property(e => e.Observacao)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("observacao");
+            builder.Property(e => e.RegistroDocente)
+                .HasColumnName("registrodocente");
 
+            builder.HasOne(d => d.FuncionarioCargoDepartamentoUnidade)
+                .WithMany(p => p.Professores)
+                .HasForeignKey(d => d.FuncionarioCargoDepartamentoUnidadeId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_tblprofessor_tblfuncionariocargodepartamentounidade");
+
+        }
     }
 }

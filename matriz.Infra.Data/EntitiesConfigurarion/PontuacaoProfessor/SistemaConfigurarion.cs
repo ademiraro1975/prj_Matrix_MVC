@@ -1,21 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class SistemaConfigurarion
+    public class SistemaConfiguration : IEntityTypeConfiguration<Sistema>
     {
-
-        public int Id { get;private set; }
-        public string Descricao { get;private set; } = string.Empty;
-        public string Nomenclatura { get; private set; } = string.Empty;
-
-        public ICollection<LogSistemaConfigurarion> LogSistemas { get; } = new List<LogSistemaConfigurarion>();
-        public ICollection<RotinaConfigurarion> Rotinas { get; } = new List<RotinaConfigurarion>();
-        public SistemaConfigurarion()
+        public void Configure(EntityTypeBuilder<Sistema> builder)
         {
-            LogSistemas = new HashSet<LogSistemaConfigurarion>();
-            Rotinas = new HashSet<RotinaConfigurarion>();
+
+            builder.HasKey(e => e.Id);
+
+            builder.ToTable("sistema", "acesso");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("idsistema");
+            builder.Property(e => e.Descricao)
+                .HasMaxLength(200)
+                .IsUnicode(false)
+                .HasColumnName("descricao");
+            builder.Property(e => e.Nomenclatura)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("nomenclatura");
+
         }
     }
 }

@@ -2,23 +2,32 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public class AreaConhecimentoConfiguration : IEntityTypeConfiguration<AreaConhecimento>
+    public class AtribuicaoConfigurarion : IEntityTypeConfiguration<Atribuicao>
     {
-        public void Configure(EntityTypeBuilder<AreaConhecimento> builder)
+        public void Configure(EntityTypeBuilder<Atribuicao> builder)
         {
-            builder.HasKey(e => e.Id).HasName("PK__tblareac__3213E83F32E0915F");
+            builder.HasKey(e => e.Id).HasName("PK_tblatribuicao");
 
-            builder.ToTable("tblareaconhecimento", "dbo");
+            builder.ToTable("tblatribuicao", "dbo");
 
-            builder.Property(e => e.Id)
-                .HasColumnName("id");
+            builder.Property(e => e.Id).HasColumnName("id");
+
             builder.Property(e => e.Descricao)
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("descricao");
+            builder.Property(e => e.Nomenclatura)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("nomenclatura");
+            builder.Property(e => e.Titulo)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("titulo");
 
         }
     }

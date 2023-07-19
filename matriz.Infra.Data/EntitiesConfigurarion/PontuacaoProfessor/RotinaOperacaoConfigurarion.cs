@@ -1,29 +1,43 @@
 ﻿using System;
 using System.Collections.Generic;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class RotinaOperacaoConfigurarion
+    public class RotinaOperacaoConfiguration : IEntityTypeConfiguration<RotinaOperacao>
     {
-
-        public int Id { get;private set; }
-        public bool Novaaba { get; private set; } = false;
-
-        public int RotinaId { get; private set; }
-        public int OperacaoId { get;private set; }
-        public int RotinaOperacaoPaiId { get; private set; }
-
-        public OperacaoConfigurarion Operacao { get; } = new OperacaoConfigurarion();    
-        public RotinaConfigurarion Rotina { get;} = new RotinaConfigurarion();
-
-        public ICollection<LogSistemaConfigurarion> LogSistemas { get; } = new List<LogSistemaConfigurarion>();
-        public ICollection<UsuarioPermissaoConfigurarion> UsuarioPermissaos { get;} = new List<UsuarioPermissaoConfigurarion>();
-        public ICollection<RotinaOperacaoConfigurarion> RotinaOperacaos { get; } = new List<RotinaOperacaoConfigurarion>();
-        public RotinaOperacaoConfigurarion()
+        public void Configure(EntityTypeBuilder<RotinaOperacao> builder)
         {
-            LogSistemas = new HashSet<LogSistemaConfigurarion>();
-            RotinaOperacaos = new HashSet<RotinaOperacaoConfigurarion>();
-            UsuarioPermissaos = new HashSet<UsuarioPermissaoConfigurarion>();
+
+            builder.HasKey(e => e.Id);
+
+            builder.ToTable("rotinaoperacao", "acesso");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("idrotinaoperacao");
+            builder.Property(e => e.OperacaoId)
+                .HasColumnName("idoperacao");
+            builder.Property(e => e.RotinaId)
+                .HasColumnName("idrotina");
+            builder.Property(e => e.RotinaOperacaoPaiId)
+                .HasColumnName("idrotinaoperacaopai");
+            builder.Property(e => e.Novaaba)
+                .HasColumnName("novaaba");
+
+            builder.HasOne(d => d.Operacao)
+                .WithMany(p => p.RotinaOperacaos)
+                .HasForeignKey(d => d.OperacaoId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_rotinaoperacao_operacao");
+
+            builder.HasOne(d => d.Rotina)
+                .WithMany(p => p.RotinaOperacaos)
+                .HasForeignKey(d => d.RotinaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_rotinaoperacao_rotina");
+
         }
     }
 }

@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
     public class CursoDisciplinaConfiguration : IEntityTypeConfiguration<CursoDisciplina>
     {

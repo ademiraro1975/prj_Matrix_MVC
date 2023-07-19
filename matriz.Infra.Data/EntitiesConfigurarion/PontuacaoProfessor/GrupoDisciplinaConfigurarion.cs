@@ -1,23 +1,30 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class GrupoDisciplinaConfigurarion
+    public class GrupoDisciplinaConfiguration : IEntityTypeConfiguration<GrupoDisciplina>
     {
-
-        public int Id { get; private set; }
-        public string Descricao { get; private set; } = string.Empty;
-        public string Tipo { get; private set; } = string.Empty;
-
-        //public  ICollection<CursoDisciplinaCargaHoraria> CursoDisciplinaCargaHorarias { get; } = new List<CursoDisciplinaCargaHoraria>();
-        public ICollection<ClasseGrupoDisciplinaConfigurarion> ClasseGrupoDisciplinas { get; } = new List<ClasseGrupoDisciplinaConfigurarion>();
-
-        public GrupoDisciplinaConfigurarion()
+        public void Configure(EntityTypeBuilder<GrupoDisciplina> builder)
         {
-            //CursoDisciplinaCargaHorarias = new HashSet<CursoDisciplinaCargaHoraria>();
-            ClasseGrupoDisciplinas = new HashSet<ClasseGrupoDisciplinaConfigurarion>();
-        }    
-    
+
+            builder.ToTable("tblgrupodisciplina", "dbo");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("id");
+            builder.Property(e => e.Descricao)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("descricao");
+            builder.Property(e => e.Tipo)
+                .HasMaxLength(1)
+                .IsUnicode(false)
+                .IsFixedLength()
+                .HasColumnName("tipo");
+
+        }
     }
 }

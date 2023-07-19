@@ -18,10 +18,12 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public string Observacoes { get; private set; } = string.Empty;
 
         public string Ativo { get; private set; } = string.Empty;
-
         public ICollection<DetalheParametro> DetalheParametro { get; } = new List<DetalheParametro>();
+
+        public ICollection<Pontuacao> Pontuacao { get; } = new List<Pontuacao>(); 
         public ProcessoAtribuicao()
         {
+            Pontuacao = new HashSet<Pontuacao>();
             DetalheParametro = new HashSet<DetalheParametro>();
         }
 

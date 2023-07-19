@@ -1,25 +1,59 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class LogSistemaConfigurarion
+    public class LogSistemaConfiguration : IEntityTypeConfiguration<LogSistema>
     {
-        public int Id { get;private set; }
-        public DateTime Datacadastro { get;private set; }
-        public string Detalhe { get; private set; } = string.Empty;
-        public string MaquinaIP { get; private set; } = string.Empty;
-        public string Navegador { get; private set; } = string.Empty;
+        public void Configure(EntityTypeBuilder<LogSistema> builder)
+        {
 
-        public int UsuarioId { get; private set; }
-        public int RotinaOperacaoId { get; private set; }
-        public int SistemaId { get; private set; }
-        public int RegistroId { get; private set; }
+            builder.HasKey(e => e.Id)
+                .HasName("PK_tbllogsistemas");
 
+            builder.ToTable("logsistemas", "acesso");
 
-        public RotinaOperacaoConfigurarion RotinaOperacao { get;} = new RotinaOperacaoConfigurarion();
-        public SistemaConfigurarion Sistema { get; } = new SistemaConfigurarion();
-        public UsuarioConfigurarion Usuario { get; } = new UsuarioConfigurarion();
+            builder.Property(e => e.Id)
+                .HasColumnName("idlogsistemas");
+            builder.Property(e => e.Datacadastro)
+                .HasColumnType("datetime")
+                .HasColumnName("datacadastro");
+            builder.Property(e => e.Detalhe)
+                .HasMaxLength(1000)
+                .IsUnicode(false)
+                .HasColumnName("detalhe");
+            builder.Property(e => e.RegistroId)
+                .HasColumnName("idregistro");
+            builder.Property(e => e.RotinaOperacaoId)
+                .HasColumnName("idrotinaoperacao");
+            builder.Property(e => e.SistemaId)
+                .HasColumnName("idsistema");
+            builder.Property(e => e.UsuarioId)
+                .HasColumnName("idusuario");
+            builder.Property(e => e.MaquinaIP)
+                .HasMaxLength(39)
+                .IsUnicode(false)
+                .HasColumnName("ipmaquina");
+            builder.Property(e => e.Navegador)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("navegador");
 
+            builder.HasOne(d => d.RotinaOperacao)
+                .WithMany(p => p.LogSistemas)
+                .HasForeignKey(d => d.RotinaOperacaoId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_logsistemas_rotinaoperacao");
+
+            builder.HasOne(d => d.Sistema)
+                .WithMany(p => p.LogSistemas)
+                .HasForeignKey(d => d.SistemaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_logsistemas_sistema");
+
+        }
     }
 }

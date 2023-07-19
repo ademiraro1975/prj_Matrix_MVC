@@ -1,26 +1,36 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class ModalidadeConfigurarion
+    public class ModalidadeConfiguration : IEntityTypeConfiguration<Modalidade>
     {
-
-        public int Id { get; set; }
-        public string Descricao { get; set; } = string.Empty;
-        public bool Modular { get; set; } = false;
-        public string Nome { get; set; } = string.Empty;
-        public string Nomenclatura { get; set; } = string.Empty;
-
-        public ICollection<CursoConfigurarion> Cursos { get; } = new List<CursoConfigurarion>();  
-        //public ICollection<AnoLetivoParametro> AnoLetivoParametros { get; } = new List<AnoLetivoParametro>();
-        //public ICollection<DetalheModalidade> DetalheModalidades { get; } = new List<DetalheModalidade>();
-        public ModalidadeConfigurarion()
+        public void Configure(EntityTypeBuilder<Modalidade> builder)
         {
-            Cursos = new HashSet<CursoConfigurarion>();
-            //AnoLetivoParametros = new HashSet<AnoLetivoParametro>();
-            //DetalheModalidades = new HashSet<DetalheModalidade>();
+
+            builder.ToTable("tblmodalidade", "dbo");
+
+            builder.Property(e => e.Id)
+                .HasComment("*identificador*")
+                .HasColumnName("id");
+            builder.Property(e => e.Descricao)
+                    .HasMaxLength(150)
+                    .IsUnicode(false)
+                    .HasColumnName("descricao");
+            builder.Property(e => e.Modular)
+                .HasColumnName("modular");
+            builder.Property(e => e.Nome)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("nome");
+            builder.Property(e => e.Nomenclatura)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("nomenclatura");
+
         }
-        
     }
 }

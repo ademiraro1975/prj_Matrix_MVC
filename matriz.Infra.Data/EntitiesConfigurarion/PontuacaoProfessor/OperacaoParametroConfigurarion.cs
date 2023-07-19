@@ -1,17 +1,25 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor.OK
 {
-    public sealed class OperacaoParametroConfigurarion
+    public class OperacaoParametroConfigurarion : IEntityTypeConfiguration<OperacaoParametro>
     {
-        public int IdOperacaoParametro { get; private set; }
-
-        public string DescricaoOperacaoAcesso { get; private set; } = string.Empty;
-        public ICollection<DetalheParametroConfigurarion> DetalheParametro { get; } = new List<DetalheParametroConfigurarion>();
-        public OperacaoParametroConfigurarion()
+        public void Configure(EntityTypeBuilder<OperacaoParametro> builder)
         {
-            DetalheParametro = new HashSet<DetalheParametroConfigurarion>();
+            builder.HasKey(e => e.IdOperacaoParametro).HasName("PK_idoperacaoparametro");
+
+            builder.ToTable("operacaoparametro", "pontuacaop");
+
+            builder.Property(e => e.IdOperacaoParametro).HasColumnName("idoperacaoparametro");
+            builder.Property(e => e.DetalheParametro)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("detalheparametro");
         }
     }
 }
+

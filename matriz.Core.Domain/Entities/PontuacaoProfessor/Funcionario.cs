@@ -15,11 +15,13 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
         public DateTime DataNascimento { get; private set; }
         public int NumDependentes { get; private set; }
 
-        public ICollection<FuncionarioCargoDepartamentoUnidade> FuncionarioCargoDepartamentos { get; } = new List<FuncionarioCargoDepartamentoUnidade>();
+        public ICollection<FuncionarioCargoDepartamentoUnidade> FuncionarioCargoDepartamentoUnidades { get; } = new List<FuncionarioCargoDepartamentoUnidade>();
+        public ICollection<Usuario> Usuarios { get; } = new List<Usuario>();
 
         public Funcionario()
         {
-            FuncionarioCargoDepartamentos = new HashSet<FuncionarioCargoDepartamentoUnidade>();
+            Usuarios = new HashSet<Usuario>();
+            FuncionarioCargoDepartamentoUnidades = new HashSet<FuncionarioCargoDepartamentoUnidade>();
         }
 
         public Funcionario(int id, string codigo, string cPF, string email, string fotoUrl, string nome, string rG, DateTime dataNascimento, int numDependentes)

@@ -2,8 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
     public class CargoConfiguration : IEntityTypeConfiguration<Cargo>
     {

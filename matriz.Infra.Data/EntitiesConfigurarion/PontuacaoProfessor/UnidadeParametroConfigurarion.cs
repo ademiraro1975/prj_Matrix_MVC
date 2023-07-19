@@ -1,17 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor.OK
 {
-    public sealed class UnidadeParametroConfigurarion
+    public class UnidadeParametroConfigurarion : IEntityTypeConfiguration<UnidadeParametro>
     {
-        public int IdUnidadeParametro { get; private set; }
 
-        public string Descricao { get; private set; } = string.Empty;
-        public ICollection<DetalheParametroConfigurarion> DetalheParametro { get; } = new List<DetalheParametroConfigurarion>();
-        public UnidadeParametroConfigurarion()
+        public void Configure(EntityTypeBuilder<UnidadeParametro> builder)
         {
-            DetalheParametro = new HashSet<DetalheParametroConfigurarion>();
+            builder.HasKey(e => e.IdUnidadeParametro).HasName("PK_idunidadeparametro");
+
+            builder.ToTable("unidadeparametro", "pontuacaop");
+
+            builder.Property(e => e.IdUnidadeParametro).HasColumnName("idunidadeparametro");
+            builder.Property(e => e.Descricao)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("descricao");
+
         }
     }
 }

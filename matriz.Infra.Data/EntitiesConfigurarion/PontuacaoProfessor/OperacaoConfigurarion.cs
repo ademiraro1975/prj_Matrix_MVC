@@ -1,19 +1,31 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class OperacaoConfigurarion
+    public class OperacaoConfiguration : IEntityTypeConfiguration<Operacao>
     {
-
-        public int Id { get; private set; }
-        public string Descricao { get; private set; } = string.Empty;
-        public string Nomenclatura { get; private set; } = string.Empty;
-
-        public ICollection<RotinaOperacaoConfigurarion> RotinaOperacaos { get; } = new List<RotinaOperacaoConfigurarion>();
-        public OperacaoConfigurarion()
+        public void Configure(EntityTypeBuilder<Operacao> builder)
         {
-            RotinaOperacaos = new HashSet<RotinaOperacaoConfigurarion>();
+
+            builder.HasKey(e => e.Id);
+
+            builder.ToTable("operacao", "acesso");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("idoperacao");
+            builder.Property(e => e.Descricao)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("descricao");
+            builder.Property(e => e.Nomenclatura)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("nomenclatura");
+
         }
     }
 }

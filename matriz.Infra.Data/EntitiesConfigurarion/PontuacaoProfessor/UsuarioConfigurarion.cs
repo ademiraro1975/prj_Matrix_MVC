@@ -1,27 +1,36 @@
-﻿namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class UsuarioConfigurarion
+    public class UsuarioConfiguration : IEntityTypeConfiguration<Usuario>
     {
-
-        public int Id { get; private set; }
-
-        public int FuncionarioId { get; private set; }
-        public int TipoUsuarioId { get; private set; }
-
-        public Funcionario Funcionario { get; } = new Funcionario();
-        public TipoUsuarioConfigurarion TipoUsuario { get; } = new TipoUsuarioConfigurarion();
-
-        public ICollection<UsuarioPermissaoConfigurarion> UsuarioPermissaos { get; } = new List<UsuarioPermissaoConfigurarion>();
-        public UsuarioConfigurarion()
+        public void Configure(EntityTypeBuilder<Usuario> builder)
         {
-            UsuarioPermissaos = new HashSet<UsuarioPermissaoConfigurarion>();
-        }
 
-        public UsuarioConfigurarion(int id, int funcionarioId, int tipoUsuarioId)
-        {
-            Id = id;
-            FuncionarioId = funcionarioId;
-            TipoUsuarioId = tipoUsuarioId;
+            builder.HasKey(e => e.Id);
+
+            builder.ToTable("usuario", "acesso");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("idusuario");
+            builder.Property(e => e.FuncionarioId)
+                .HasColumnName("idfuncionario");
+            builder.Property(e => e.TipoUsuarioId)
+                .HasColumnName("idtipousuario");
+
+            builder.HasOne(d => d.Funcionario)
+                .WithMany(p => p.Usuarios)
+                .HasForeignKey(d => d.FuncionarioId)
+                .HasConstraintName("FK_usuario_funcionario");
+
+            builder.HasOne(d => d.TipoUsuario)
+                .WithMany(p => p.Usuarios)
+                .HasForeignKey(d => d.TipoUsuarioId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_usuario_tipousuario");
+
         }
     }
 }

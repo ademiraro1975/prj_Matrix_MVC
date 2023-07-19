@@ -1,21 +1,45 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class UsuarioPermissaoConfigurarion
+    public class UsuarioPermissaoConfiguration : IEntityTypeConfiguration<UsuarioPermissao>
     {
-        public int Id { get;private set; }
+        public void Configure(EntityTypeBuilder<UsuarioPermissao> builder)
+        {
 
+            builder.HasKey(e => e.Id);
 
-        public int RotinaOperacaoId { get;private set; }
-        public int UnidadeId { get; private set; }
-        public int UsuarioId { get; private set; }
+            builder.ToTable("usuariopermissao", "acesso");
 
+            builder.Property(e => e.Id)
+                .HasColumnName("idusuariopermissao");
+            builder.Property(e => e.RotinaOperacaoId)
+                .HasColumnName("idrotinaoperacao");
+            builder.Property(e => e.UnidadeId)
+                .HasColumnName("idunidade");
+            builder.Property(e => e.UsuarioId)
+                .HasColumnName("idusuario");
 
-        public RotinaOperacaoConfigurarion RotinaOperacao { get; } = new RotinaOperacaoConfigurarion();
-        public UnidadeConfigurarion Unidade { get; } = new UnidadeConfigurarion();
-        public UsuarioConfigurarion Usuario { get; } = new UsuarioConfigurarion();
+            builder.HasOne(d => d.RotinaOperacao)
+                .WithMany(p => p.UsuarioPermissaos)
+                .HasForeignKey(d => d.RotinaOperacaoId)
+                .HasConstraintName("FK_usuariopermissao_rotinaoperacao");
 
+            builder.HasOne(d => d.Unidade)
+                .WithMany(p => p.UsuarioPermissaos)
+                .HasForeignKey(d => d.UnidadeId)
+                .HasConstraintName("FK_usuariopermissao_unidade");
+
+            builder.HasOne(d => d.Usuario)
+                .WithMany(p => p.UsuarioPermissaos)
+                .HasForeignKey(d => d.UsuarioId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_usuariopermissao_usuario");
+
+        }
     }
 }

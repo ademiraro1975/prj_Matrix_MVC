@@ -16,28 +16,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Projetos Apoio\prj_Matrix_MVC\matriz.MVC.Gestor
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Gestor/Alterar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdG9yXEFsdGVyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Gestor/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdG9yXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Gestor/ConfirmarExclusao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdG9yXENvbmZpcm1hckV4Y2x1c2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Gestor/Consultar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdG9yXENvbnN1bHRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Gestor/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdG9yXEV4Y2x1aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Gestor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Pizza/Alterar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcQWx0ZXJhci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Pizza/Cadastrar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcQ2FkYXN0cmFyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Pizza/Consultar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcQ29uc3VsdGFyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Pizza/Excluir.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcRXhjbHVpci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Pizza/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projetos Apoio/prj_Matrix_MVC/matriz.MVC.Gestor/Views/Shared/Error.cshtml]

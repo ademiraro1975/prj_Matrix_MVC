@@ -1,26 +1,34 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class PeriodoConfigurarion
+    public class PeriodoConfiguration : IEntityTypeConfiguration<Periodo>
     {
-
-        public int Id { get; private set; }
-        public DateTime HoraFim { get; private set; }
-        public DateTime HoraInicio { get; private set; }
-        public string Nome { get; private set; } = string.Empty;
-        public string Sigla { get; private set; } = string.Empty;
-
-
-        public ICollection<ClasseConfigurarion> Classes { get; } = new List<ClasseConfigurarion>();
-        public  ICollection<CursoUnidadePeriodoConfigurarion> CursoUnidadePeriodos { get; } = new List<CursoUnidadePeriodoConfigurarion>();
-        public PeriodoConfigurarion()
+        public void Configure(EntityTypeBuilder<Periodo> builder)
         {
-            Classes = new HashSet<ClasseConfigurarion>();
-            CursoUnidadePeriodos = new HashSet<CursoUnidadePeriodoConfigurarion>();
+
+            builder.ToTable("tblperiodo", "dbo");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("id");
+            builder.Property(e => e.HoraFim)
+                .HasColumnName("horafim");
+            builder.Property(e => e.HoraInicio)
+                .HasColumnName("horainicio");
+            builder.Property(e => e.Nome)
+                .HasMaxLength(15)
+                .IsUnicode(false)
+                .HasColumnName("nome");
+            builder.Property(e => e.Sigla)
+                .HasMaxLength(1)
+                .IsUnicode(false)
+                .IsFixedLength()
+                .HasColumnName("sigla");
+
         }
-
-
     }
 }

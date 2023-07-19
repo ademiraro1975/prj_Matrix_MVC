@@ -1,32 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor.OK
 {
-    public partial class PontuacaoConfigurarion
+    public class PontuacaoConfigurarion : IEntityTypeConfiguration<Pontuacao>
     {
-        public int IdPontuacao { get; private set; }
 
-        public int IdProcessoAtribuicao { get; private set; }
-
-        public int IdProfessor { get; private set; }
-
-        public decimal PontuacaoEscolaPont { get; private set; }
-
-        public decimal PontuacaoFiebPont { get; private set; }
-
-        public decimal DeducoesPont { get; private set; }
-
-        public decimal TituloPont { get; private set; }
-
-        public ProcessoAtribuicaoConfigurarion ProcessoAtribuicao { get; } = new ProcessoAtribuicaoConfigurarion();
-        public ProfessorConfigurarion Professor { get; } = new ProfessorConfigurarion();
-
-        public ICollection<DetalhePontuacaoConfigurarion> DetalhePontuacao { get; } = new List<DetalhePontuacaoConfigurarion>();
-        public PontuacaoConfigurarion()
+        public void Configure(EntityTypeBuilder<Pontuacao> builder)
         {
-            DetalhePontuacao = new HashSet<DetalhePontuacaoConfigurarion>();
-        }
+            builder.HasKey(e => e.IdPontuacao).HasName("PK_idpontuacao");
 
+            builder.ToTable("pontuacao", "pontuacaop");
+
+            builder.Property(e => e.IdPontuacao)
+                .HasColumnName("idpontuacao");
+            builder.Property(e => e.DeducoesPont)
+                .HasColumnType("decimal(10, 2)")
+                .HasColumnName("deducoes_pont");
+            builder.Property(e => e.IdProcessoAtribuicao)
+                .HasColumnName("idprocessoatribuicao");
+            builder.Property(e => e.IdProfessor)
+                .HasColumnName("idprofessor");
+            builder.Property(e => e.PontuacaoEscolaPont)
+                .HasColumnType("decimal(10, 2)")
+                .HasColumnName("pontuacao_escola_pont");
+            builder.Property(e => e.PontuacaoFiebPont)
+                .HasColumnType("decimal(10, 2)")
+                .HasColumnName("pontuacao_fieb_pont");
+            builder.Property(e => e.TituloPont)
+                .HasColumnType("decimal(10, 2)")
+                .HasColumnName("titulo_pont");
+
+            builder.HasOne(d => d.Professor)
+                .WithMany(p => p.Pontuacao)
+                .HasForeignKey(d => d.IdProfessor)
+                .HasConstraintName("FK_processoatribuicao");
+            builder.HasOne(d => d.ProcessoAtribuicao)
+                .WithMany(p => p.Pontuacao)
+                .HasForeignKey(d => d.IdProcessoAtribuicao)
+                .HasConstraintName("FK_processoatribuicao");
+
+        }
     }
 }

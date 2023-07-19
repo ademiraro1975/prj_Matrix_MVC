@@ -26,5 +26,6 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 
         public DetalheParametro DetalheParametro { get; } = new DetalheParametro();
 
+
     }
 }

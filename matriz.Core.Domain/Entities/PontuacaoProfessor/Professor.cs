@@ -13,8 +13,13 @@ namespace matriz.Core.Domain.Entities.PontuacaoProfessor
 
         public int FuncionarioCargoDepartamentoUnidadeId { get; private set; }
 
-        public FuncionarioCargoDepartamentoUnidade FuncionarioCargoDepartamentoUnidade { get;} = new FuncionarioCargoDepartamentoUnidade(); 
-        
+        public FuncionarioCargoDepartamentoUnidade FuncionarioCargoDepartamentoUnidade { get;} = new FuncionarioCargoDepartamentoUnidade();
+
+        public ICollection<Pontuacao> Pontuacao { get; } = new List<Pontuacao>();
+        public Professor()
+        {
+            Pontuacao = new HashSet<Pontuacao>();
+        }
 
     }
 }

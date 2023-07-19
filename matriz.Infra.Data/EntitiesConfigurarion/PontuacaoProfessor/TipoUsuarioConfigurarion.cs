@@ -1,22 +1,33 @@
-﻿using System;
+﻿using matriz.Core.Domain.Entities.PontuacaoProfessor;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
-namespace matriz.Core.Domain.Entities.PontuacaoProfessor
+namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {
-    public sealed class TipoUsuarioConfigurarion
+    public class TipoUsuarioConfiguration : IEntityTypeConfiguration<TipoUsuario>
     {
-
-        public int Id { get;private set; }
-        public string Descricao { get;private set; } = string.Empty;
-        public int Hierarquia { get; private set; }
-        public string Nomenclatura { get; private set; } = string.Empty;
-
-
-        public ICollection<UsuarioConfigurarion> Usuarios { get; } = new List<UsuarioConfigurarion>();
-        public TipoUsuarioConfigurarion()
+        public void Configure(EntityTypeBuilder<TipoUsuario> builder)
         {
-            Usuarios = new HashSet<UsuarioConfigurarion>();
-        }
 
+            builder.HasKey(e => e.Id);
+
+            builder.ToTable("tipousuario", "acesso");
+
+            builder.Property(e => e.Id)
+                .HasColumnName("idtipousuario");
+            builder.Property(e => e.Descricao)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("descricao");
+            builder.Property(e => e.Hierarquia)
+                .HasColumnName("hierarquia");
+            builder.Property(e => e.Nomenclatura)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("nomenclatura");
+
+        }
     }
 }
