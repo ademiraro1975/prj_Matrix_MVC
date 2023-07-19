@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using matriz.Core.Domain.Entities;
+using matriz.Core.Domain.Entities.PontuacaoProfessor;
 
 namespace matriz.Infra.Data.EntitiesConfigurarion.PontuacaoProfessor
 {

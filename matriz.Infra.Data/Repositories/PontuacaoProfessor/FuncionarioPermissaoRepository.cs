@@ -14,11 +14,11 @@ public class FuncionarioPermissaoRepository : IFuncionarioPermissaoRepository
         _appDbContext = appDbContext;
     }
 
-    public async Task<List<FuncionarioPermissao>> ObterFuncionarioPermissaoAsync(string email, string sistema)
+    public async Task<List<FuncionarioPermissaoConfigurarion>> ObterFuncionarioPermissaoAsync(string email, string sistema)
     {
         var funcionarioPermissao = from f in _appDbContext.Funcionarios
                                    where f.Email.Equals(email)
-                                   select new FuncionarioPermissao(
+                                   select new FuncionarioPermissaoConfigurarion(
                                         f.Id,
                                         f.Nome,
                                         f.Email,
