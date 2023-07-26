@@ -9,6 +9,7 @@ namespace matriz.Infra.Data.Context
 {
     public class AppDbContext : DbContext
     {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public virtual DbSet<AreaConhecimento> AreaConhecimentos { get; set; }
         public virtual DbSet<Atribuicao> Atribuicaos { get; set; }
@@ -31,9 +32,7 @@ namespace matriz.Infra.Data.Context
         public virtual DbSet<FundLegal> FundLegals { get; set; }
         public virtual DbSet<GrupoDisciplina> GrupoDisciplinas { get; set; }
         public virtual DbSet<Habilitacao> Habilitacaos { get; set; }
-
         public virtual DbSet<LogSistema> LogSistemas { get; set; }
-
         public virtual DbSet<Modalidade> Modalidades { get; set; }
         public virtual DbSet<Operacao> Operacoes { get; set; }
         public virtual DbSet<Parametro> Parametros { get; set; }
@@ -46,21 +45,13 @@ namespace matriz.Infra.Data.Context
         public virtual DbSet<Unidade> Unidades { get; set; }
         public virtual DbSet<Usuario> Usuarios { get; set; }
         public virtual DbSet<UsuarioPermissao> UsuarioPermissao { get; set; }
-
         public virtual DbSet<DetalheParametro> Detalheparametros { get; set; }
-
         public virtual DbSet<DetalhePontuacao> Detalhepontuacaos { get; set; }
-
         public virtual DbSet<MatriculaProfessor> Matriculaprofessors { get; set; }
-
         public virtual DbSet<OperacaoParametro> Operacaoparametros { get; set; }
-
         public virtual DbSet<Pontuacao> Pontuacaos { get; set; }
-
         public virtual DbSet<ProcessoAtribuicao> ProcessoAtribuicaos { get; set; }
-
         public virtual DbSet<TipoParametro> TipoParametros { get; set; }
-
         public virtual DbSet<UnidadeParametro> Unidadeparametros { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -69,6 +60,7 @@ namespace matriz.Infra.Data.Context
             base.OnModelCreating(modelBuilder);
             modelBuilder.UseCollation("Latin1_General_CI_AI");
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+
 
         }
 
